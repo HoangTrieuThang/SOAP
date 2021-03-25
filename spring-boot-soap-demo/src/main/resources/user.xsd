@@ -25,8 +25,7 @@
             <xs:element name="kieuThe" type="xs:string" />
             <xs:element name="soThe" type="xs:double" />
             <xs:element name="soCVC" type="xs:double" />
-            <xs:element name="ngayHetHan" type="xs:double" />
-
+            <xs:element name="ngayHetHan" type="xs:date" />
         </xs:sequence>
     </xs:complexType>
 </xs:schema>
