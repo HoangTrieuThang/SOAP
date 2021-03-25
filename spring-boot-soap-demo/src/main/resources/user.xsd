@@ -21,9 +21,12 @@
 
     <xs:complexType name="user">
         <xs:sequence>
-            <xs:element name="name" type="xs:string" />
-            <xs:element name="empId" type="xs:int" />
-            <xs:element name="salary" type="xs:double" />
+            <xs:element name="tenChuThe" type="xs:string" />
+            <xs:element name="kieuThe" type="xs:string" />
+            <xs:element name="soThe" type="xs:double" />
+            <xs:element name="soCVC" type="xs:double" />
+            <xs:element name="ngayHetHan" type="xs:double" />
+
         </xs:sequence>
     </xs:complexType>
 </xs:schema>
